@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
 body{
     font-family: roboto;
@@ -110,7 +110,7 @@ button.call{
     display: flex;
     justify-content: center;
     gap: 32px;
-
+    margin: 16px;
     text-align: center;
 }
 
@@ -123,4 +123,28 @@ button.call{
     height: 100px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+/*  
+    #####################
+    - Quote Section
+    #####################
+*/
+.quote-section{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    background: #E5E7EB;
+}
+
+q{
+    display: block;
+    width: 800px;
+    font: italic 36px roboto;
+}
+
+h2{
+    text-align: right;
+    padding: 0;
+    margin: 0;
 }
