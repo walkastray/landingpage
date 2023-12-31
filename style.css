@@ -64,6 +64,7 @@ a{
     align-items: flex-start;
     gap: 64px;
     padding: 32px;
+    flex-wrap: wrap;
 }
 
 .text{
@@ -109,6 +110,7 @@ button.call{
 .info-cards{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
     margin: 16px;
     text-align: center;
@@ -139,7 +141,7 @@ button.call{
 
 q{
     display: block;
-    width: 800px;
+    max-width: 800px;
     font: italic 36px roboto;
 }
 
@@ -162,11 +164,14 @@ q{
 }
 
 .prompt{
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 700px;
     padding: 16px;
+    border-radius: 5px;
+
     color: #F9FAF8;
     background: #3882F6;
 }
@@ -179,7 +184,7 @@ q{
 
     width: 100px;
     height: 30px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
 
     color: #F9FAF8;
