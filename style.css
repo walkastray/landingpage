@@ -143,8 +143,60 @@ q{
     font: italic 36px roboto;
 }
 
-h2{
+.quote-section h2{
     text-align: right;
     padding: 0;
     margin: 0;
+}
+
+/*  
+#####################
+- Call to Action
+#####################
+*/
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.prompt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    padding: 16px;
+    color: #F9FAF8;
+    background: #3882F6;
+}
+
+.prompt-text{
+    text-align: left;
+}
+
+.sign{
+
+    width: 100px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    color: #F9FAF8;
+    background: transparent;
+    font-weight: bold;
+    
+}
+
+/*  
+#####################
+- Footer
+#####################
+*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: #F9FAF8;
 }
